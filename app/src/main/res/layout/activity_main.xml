@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:layout_height="40dp"
+        android:text="Plant Diseases"
+        android:textColor="#323232"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/title"-->
+<!--        android:text="Choose your plant:"-->
+<!--        android:id="@+id/choose"-->
+<!--        android:textSize="22dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="170dp"/>-->
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/firstimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wheat_background"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+        <Button
+            android:id="@+id/wheatbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:width="120dp"
+            android:background="@drawable/round_btn_categories"
+            android:fontFamily="sans-serif-black"
+            android:text="Wheat \nDiseases"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/secondimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:src="@drawable/potato_background2"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+        <Button
+            android:id="@+id/potatoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="-3dp"
+            android:width="120dp"
+            android:background="@drawable/round_btn_categories"
+            android:fontFamily="sans-serif-black"
+            android:text="Potato \nDiseases"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/thirdimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tomato_background"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+        <Button
+            android:id="@+id/tomatoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="-3dp"
+            android:width="120dp"
+            android:background="@drawable/round_btn_categories"
+            android:fontFamily="sans-serif-black"
+            android:text="Tomato \nDiseases"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/fourthimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pepper_background3"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+        <Button
+            android:id="@+id/paperBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="-3dp"
+            android:width="120dp"
+            android:background="@drawable/round_btn_categories"
+            android:fontFamily="sans-serif-black"
+            android:text="Pepper \nDiseases"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/wheatbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/title"-->
+<!--        android:text="Wheat Disease"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="230dp"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:backgroundTint="#42855B"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:padding="10dp"-->
+<!--        android:width="150dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/potatoBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Potato Disease"-->
+<!--        android:layout_below="@id/wheatbtn"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:backgroundTint="#42855B"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:padding="10dp"-->
+<!--        android:width="150dp"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/tomatoBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tomato Disease"-->
+<!--        android:layout_below="@id/potatoBtn"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:backgroundTint="#42855B"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:padding="10dp"-->
+<!--        android:width="150dp"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/paperBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Pepper Disease"-->
+<!--        android:layout_below="@id/tomatoBtn"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/round_btn"-->
+<!--        android:backgroundTint="#42855B"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:padding="10dp"-->
+<!--        android:width="150dp"-->
+<!--        />-->
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="455dp"-->
+<!--        android:src="@drawable/circle_half" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView11"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="365dp"-->
+<!--        app:srcCompat="@drawable/circle_quarter" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:layout_marginBottom="365dp"-->
+<!--        app:srcCompat="@drawable/circle" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView13"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:layout_marginBottom="547dp"-->
+<!--        app:srcCompat="@drawable/circle_half_an_color" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="547dp"-->
+<!--        app:srcCompat="@drawable/circle_quarter" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView15"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="637dp"-->
+<!--        app:srcCompat="@drawable/circle" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView16"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="200dp"-->
+<!--        android:layout_marginBottom="637dp"-->
+<!--        android:rotation="180"-->
+<!--        app:srcCompat="@drawable/circle_quarter" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView17"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="200dp"-->
+<!--        android:layout_marginBottom="455dp"-->
+<!--        app:srcCompat="@drawable/circle_quarter_2" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="123dp"-->
+<!--        android:layout_marginBottom="727dp"-->
+<!--        app:srcCompat="@drawable/shape_with_circle" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView9"-->
+<!--        android:layout_width="69dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="29dp"-->
+<!--        android:layout_marginBottom="456dp"-->
+<!--        app:srcCompat="@drawable/plant3" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView10"-->
+<!--        android:layout_width="71dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="-5dp"-->
+<!--        android:layout_marginBottom="490dp"-->
+<!--        app:srcCompat="@drawable/watering_can"-->
+<!--        android:rotation="-20"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="140dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="540dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Plant \nDiseases"-->
+<!--        android:lineHeight="55dp"-->
+<!--        android:textColor="#323232"-->
+<!--        android:textSize="48dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/paragraph"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="680dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:text="Let's make the world green again"-->
+<!--        android:textColor="#323232"-->
+<!--        android:textSize="16dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="26dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="115dp"-->
+<!--        android:layout_marginBottom="163dp"-->
+<!--        app:srcCompat="@drawable/green_tea" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="56dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="37dp"-->
+<!--        android:layout_marginBottom="662dp"-->
+<!--        app:srcCompat="@drawable/succulent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="81dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="100dp"-->
+<!--        android:layout_marginBottom="290dp"-->
+<!--        app:srcCompat="@drawable/hangingpot" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/getbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="730dp"-->
+<!--        android:width="160dp"-->
+<!--        android:background="@drawable/round_get_btn"-->
+<!--        android:backgroundTint="#446129"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="Get Started"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="16dp" />-->
+
+
+<!--</RelativeLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

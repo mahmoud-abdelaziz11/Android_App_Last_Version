@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="#323232"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif-black"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_btn_categories"
+            android:layout_centerHorizontal="true">
+
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/firstimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:src="@drawable/green_background2"
+                app:shapeAppearanceOverlay="@style/roundimageview"
+                />
+
+            <Button
+                android:id="@+id/plantBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="-4dp"
+                android:layout_marginEnd="-3dp"
+                android:width="120dp"
+                android:background="@drawable/round_btn_categories"
+                android:fontFamily="sans-serif-black"
+                android:text="Plant Leaves \nDiseases"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <!--            <ImageView-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="61dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="65dp"-->
+<!--                android:layout_marginEnd="229dp"-->
+<!--                android:src="@drawable/spider_plant" />-->
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true"
+        >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/secondimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:src="@drawable/sky_background_cow"
+                app:shapeAppearanceOverlay="@style/roundimageview"
+                />
+
+            <Button
+                android:id="@+id/animalsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/round_btn_categories"
+                android:width="120dp"
+                android:text="Animals"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-black"/>
+
+<!--            <ImageView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginStart="-8dp"-->
+<!--                android:layout_marginLeft="0dp"-->
+<!--                android:layout_marginTop="24dp"-->
+<!--                android:layout_marginEnd="241dp"-->
+<!--                android:src="@drawable/pngcow" />-->
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true"    >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/thirdimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:src="@drawable/sky_background_milk3"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <Button
+                android:id="@+id/milkBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:width="120dp"
+                android:background="@drawable/round_btn_categories"
+                android:text="Milk"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-black"/>
+
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="77dp"-->
+<!--                android:layout_marginEnd="250dp"-->
+<!--                android:src="@drawable/milk" />-->
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_btn_categories"
+        android:layout_centerHorizontal="true"    >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/fourthimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/green_background_damage2"
+            app:shapeAppearanceOverlay="@style/roundimageview" />
+
+        <Button
+            android:id="@+id/damageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:width="120dp"
+            android:background="@drawable/round_btn_categories"
+            android:text="Crop \nDamage"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="250dp"
+             />
+
+
+    </RelativeLayout>
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/plantBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="229dp"-->
+<!--        android:layout_marginEnd="238dp"-->
+<!--        android:width="150dp"-->
+<!--        android:background="@drawable/round_btn_categories"-->
+<!--        android:backgroundTint="#92a65f"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="Plants"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20dp"-->
+<!--        android:fontFamily="sans-serif-black"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/animalsBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="241dp"-->
+<!--        android:layout_marginTop="230dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:width="150dp"-->
+<!--        android:background="@drawable/round_btn_categories"-->
+<!--        android:backgroundTint="#92a65f"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="Animals"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20dp"-->
+<!--        android:fontFamily="sans-serif-black"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/milkBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="460dp"-->
+<!--        android:layout_marginEnd="132dp"-->
+<!--        android:width="150dp"-->
+<!--        android:background="@drawable/round_btn_categories"-->
+<!--        android:backgroundTint="#92a65f"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="Milk"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20dp"-->
+<!--        android:fontFamily="sans-serif-black"/>-->
+</RelativeLayout>
