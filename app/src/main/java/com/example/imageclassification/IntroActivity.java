@@ -28,7 +28,7 @@ public class IntroActivity extends AppCompatActivity {
         getbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(IntroActivity.this,CategoriesActivity.class);
+                Intent intent = new Intent(IntroActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
